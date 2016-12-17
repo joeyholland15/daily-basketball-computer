@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "Signika";
+  src: url("../fonts/Signika-Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Signika";
+  src: url("../fonts/Signika-Regular.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Signika";
+  src: url("../fonts/Signika-Bold.otf");
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Signika";
+  font-weight: 300;
+}
+
+.feed-container {
+  width: 80%;
+  margin: 10px auto 40px;
+  border: 1px solid #dddddd;
+}
+
+.player-row {
+  width: 100%;
+  font-size: 14px;
+}
+
+.player-col {
+  display: inline-block;
+  border: 1px solid #dddddd;
+  padding: 5px;
+}
+
+.player-col-title {
+  font-weight: 500;
+}
+
+.small {
+  width: 4.8%;
+  text-align: center;
+}
+
+.medium {
+  width: 8%;
+  text-align: center;
+}
+
+.large {
+  width: 20%;
+}
+
+.date-filter-container {
+  width: 60%;
+  margin: 60px auto;
+}
+
+.date-filter:nth-child(2) {
+  font-size: 24px;
+}
+
+.date-filter {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0 40px;
+}
+
+.feed-filters-container {
+  padding: 20px 0 20px 10%;
+  width: 100%;
+  background: white;
+  position: fixed;
+  top: 0px;
+}
+
+.feed-filter {
+  display: inline-block;
+  cursor: pointer;
+  padding-right: 20px;
+  text-decoration: underline;
+}
+
+.selected-filter {
+  text-decoration: none;
+}
+
+.today {
+  background-color: beige;
+}
+
+.tomato {
+  background-color: tomato;
+}
+
+.mediumseagreen {
+  background-color: mediumseagreen;
+}
+
+.lightgreen {
+  background-color: lightgreen;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.white {
+  background-color: white;
+}
+
+.dnp {
+  background-color: white;
+  color: white;
+}
+
